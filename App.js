@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 function App() {
   const [loading, setLoading] = useState(true);
-  const [user, setUser] = useState([]);
+  const [users, setUser] = useState([]);
   const [error, setError] = useState(null);
 
   useEffect(() =>{
